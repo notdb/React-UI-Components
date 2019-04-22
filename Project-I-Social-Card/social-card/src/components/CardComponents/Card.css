@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.card-banner-image {
+    width: 750px;
+    border-radius: 5px;
+}
