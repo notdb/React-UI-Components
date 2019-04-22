@@ -2,4 +2,6 @@
 
 .header-container {
     border: 5px solid black;
+    display:flex;
+    width: 750px;
 }
