@@ -10,8 +10,8 @@ function Calculator() {
       {console.log("this is the calculator")}
       <BlackBox />
       <div className="crazy-div">
-        <SymbolColumn />
         <DialPad />
+        <SymbolColumn />
       </div>
     </div>
   );
