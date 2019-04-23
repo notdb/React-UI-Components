@@ -1,5 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "./reset1.css";
+import Calculator from "./components/DisplayComponents/CalculatorDisplay";
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <Calculator />
     </div>
   );
 };
