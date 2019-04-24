@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    border: 5px solid black;
+    display:flex;
+    width: 750px;
+}

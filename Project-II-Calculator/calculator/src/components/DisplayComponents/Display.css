@@ -1,0 +1,50 @@
+.calc-display {
+    width: 200px;
+    height: 325px;
+    margin-left: 50px;
+}
+
+
+.black-box {
+    width: 200px;
+    height:75px;
+    background-color: #222222;
+    color: #C6C6C6;
+    font-size: 3em;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: .175em;
+}
+
+.five-symbol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    color: white;
+    background-color:red;
+}
+
+.dial-pad {
+    width: 150px;
+    height: 250px;
+}
+
+.dial-a-number {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.crazy-div {
+    display:flex;
+}
+
+.long-test-pad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.what:nth-child(2), .what:nth-child(6), .what:nth-child(10), .what:nth-child(14), .what:nth-child(16)  {
+    background-color: red;
+}

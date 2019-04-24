@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import CardContainer from "./components/CardComponents/CardContainer";
+import FooterComponents from "./components/FooterComponents/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="app-styles">
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
+        few files that we've already included in there to get you started right 
         away building components. You'll need to make sure you include your
         components that you build in this file to watch your app come to life
       </p>
@@ -17,7 +20,11 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <HeaderContainer />
+      <CardContainer />
+      <FooterComponents />
     </div>
+    
   );
 };
 
